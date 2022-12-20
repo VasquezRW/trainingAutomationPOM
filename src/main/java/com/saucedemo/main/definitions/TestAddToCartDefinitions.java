@@ -20,14 +20,14 @@ public class TestAddToCartDefinitions {
     @When("click en el nombre del segundo item")
     public void clickEnElNombreDelSegundoItem() {
         //testAddToCartSteps.segundoItem();
-        testAddToCartSteps.addToCartSegundoItem();
+        testAddToCartSteps.segundoItem();
     }
-    /*
+
     @When("click en addtocart")
     public void clickEnAddtocart() {
-        //testAddToCartSteps.addToCartSegundoItem();
+        testAddToCartSteps.addToCartSegundoItem();
     }
-    */
+
     @When("click en carrito")
     public void clickEnCarrito() {
         testAddToCartSteps.clickCarrito();

@@ -23,11 +23,11 @@ public class TestAddToCartSteps {
         homePage.addToCartItem();
     }
 
-    /*
+
     public void segundoItem() {
         homePage.clickSegundoItem();
     }
-    */
+
 
     public void addToCartSegundoItem() {
         testAddToCartPage.addToCartItem();

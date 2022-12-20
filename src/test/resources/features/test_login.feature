@@ -7,11 +7,17 @@ Feature: Iniciar sesión en la aplicacion de saucedemo
     And dar click en el boton de login
     Then validamos que estemos en la pagina principal "PRODUCTS"
 
+  @orderBy
+  Scenario: Ordenar Items low-high
+    Given Click en ordenar items
+    When click en price low-high
+    Then validamos que los items se encuentren ordenados
+
   @addToCart
   Scenario: Agregar un 2 productos al carrito y elminar 1
     Given Click en addtocart del primer item
     When click en el nombre del segundo item
-    #And click en addtocart
+    And click en addtocart
     And click en carrito
     And click remove al segundo item
     Then validamos que se encuentre el item "Sauce Labs Backpack"
